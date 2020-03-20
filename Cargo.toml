@@ -5,11 +5,18 @@ authors = ["krircc <krircc@qq.com>"]
 documentation = "https://docs.rs/kayrx-ui/"
 repository = "https://github.com/kayrx/kayrx-ui"
 description = "The Kayrx-UI Framework"
-categories = ["asynchronous", "ui-programming", "web-programming"]
-keywords = ["async", "ui", "futures", "web", "wasm", "webassembly"]
+categories = ["asynchronous", "webui-programming", "web-programming"]
+keywords = ["async", "webui", "futures", "web", "wasm", "webassembly"]
 license = "MIT"
 readme = "README.md"
 edition = "2018"
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+[features]
+default = []
 
 [dependencies]
 yew = {version = "0.14", features = ["web_sys"]}
@@ -30,3 +37,11 @@ features = [
     "DragEvent",
     "MouseEventInit",
 ]
+
+[dev-dependencies]
+
+
+[profile.release]
+lto = true
+opt-level = 3
+codegen-units = 1
