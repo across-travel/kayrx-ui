@@ -1,16 +1,12 @@
-pub mod button;
-pub mod file_drop_area;
-pub mod file_upload;
-pub mod label;
-pub mod navbar;
-pub mod pagination;
-pub mod select;
-pub mod toast;
-
-
+mod button;
+mod file_drop_area;
+mod file_upload;
 mod input;
-
-
+mod label;
+mod navbar;
+mod pagination;
+mod select;
+mod toast;
 
 pub use self::button::Button;
 pub use self::navbar::Navbar;

@@ -1,6 +1,6 @@
 use web_sys::{DragEvent, HtmlInputElement, MouseEvent, MouseEventInit};
-use yew::prelude::*;
-use yew::services::reader::File;
+use crate::fabric::prelude::*;
+use crate::fabric::services::reader::File;
 
 pub struct FileUpload {
     props: Props,

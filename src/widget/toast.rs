@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 use std::time::Duration;
-use yew::{
+use crate::fabric::{
     prelude::*,
     services::timeout::{TimeoutService, TimeoutTask},
 };

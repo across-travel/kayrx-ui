@@ -1,5 +1,5 @@
 use web_sys::HtmlInputElement;
-use yew::prelude::*;
+use crate::fabric::prelude::*;
 
 pub struct InputNumber {
     link: ComponentLink<Self>,

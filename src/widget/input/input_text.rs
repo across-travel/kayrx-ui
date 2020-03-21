@@ -1,4 +1,4 @@
-use yew::prelude::*;
+use crate::fabric::prelude::*;
 
 pub struct InputText {
     props: Props,

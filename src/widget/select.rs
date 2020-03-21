@@ -1,4 +1,4 @@
-use yew::prelude::*;
+use crate::fabric::prelude::*;
 
 use web_sys::HtmlSelectElement;
 

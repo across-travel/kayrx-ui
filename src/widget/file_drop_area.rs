@@ -1,6 +1,6 @@
 use web_sys::DragEvent;
-use yew::prelude::*;
-use yew::services::reader::File;
+use crate::fabric::prelude::*;
+use crate::fabric::services::reader::File;
 
 pub struct FileDropArea {
     props: Props,

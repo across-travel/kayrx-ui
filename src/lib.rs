@@ -3,4 +3,5 @@
 #[macro_use]
 extern crate yew;
 
-pub mod components;
+pub mod widget;
+pub mod fabric;

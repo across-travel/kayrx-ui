@@ -1,7 +1,7 @@
 use web_sys::MouseEvent;
-use yew::html;
-use yew::callback::Callback;
-use yew::html::{Html, ComponentLink, ShouldRender, Renderable, Component, Children};
+use crate::fabric::html;
+use crate::fabric::callback::Callback;
+use crate::fabric::html::{Html, ComponentLink, ShouldRender, Renderable, Component, Children};
 
 pub struct Button {
     props: Props,
